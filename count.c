@@ -6,7 +6,7 @@ void count();
 int main()
 {
     int my_age = 30;
-    count(my_age);
+    count();
     return 0;
 }
 

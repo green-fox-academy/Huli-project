@@ -1,3 +1,3 @@
 void cheer {
-    printf("embedded");
+    printf("python\n");
 }
