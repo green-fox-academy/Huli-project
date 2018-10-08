@@ -8,6 +8,11 @@ int main()
     return 0;
 }
 
-void greet(char name){
+void greet(char name, int age){
     printf("Name: %s\t Age: %d", name, age);
+    greet();
+}
+
+void greet(char name){
+    printf("Greetings");
 }

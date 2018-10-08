@@ -6,12 +6,13 @@ void count();
 int main()
 {
     int my_age = 30;
-    count(my_age);
+    char *month = "January";
+    count(my_age, month);
     return 0;
 }
 
-void count(int age)
+void count(int age, char *month)
 {
-    printf("My age is %d\n", age);
+    printf("My age is %d and I borned in %s \n", age, month);
 	printf("%d", 12);
 }
