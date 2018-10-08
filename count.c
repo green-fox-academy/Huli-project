@@ -5,11 +5,12 @@ void count();
 
 int main()
 {
-    count();
+    int my_age = 30;
+    count(my_age);
     return 0;
 }
 
-void count()
+void count(int age)
 {
-    printf("My age is 30\n");
+    printf("My age is %d\n", age);
 }
