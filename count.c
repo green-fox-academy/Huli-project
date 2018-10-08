@@ -13,4 +13,5 @@ int main()
 void count(int age)
 {
     printf("My age is %d\n", age);
+	printf("%d", 12);
 }
