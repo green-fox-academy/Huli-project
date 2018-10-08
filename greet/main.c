@@ -3,10 +3,9 @@
 
 int main()
 {
-    char name[20] = "Balazs";
-    return 0;
+    greet();
 }
 
 void greet(char name){
-    printf("%s", name);
+    printf("Greetings");
 }
