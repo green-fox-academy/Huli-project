@@ -13,6 +13,10 @@ void greet(char name, int age){
     greet();
 }
 
-void greet(char name){
+void greet_2(char name){
     printf("Greetings");
+}
+
+void greet_3(char name){
+    printf("%s AKA STADD\n", name);
 }

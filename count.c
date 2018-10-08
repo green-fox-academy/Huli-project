@@ -8,8 +8,10 @@ int main()
     int my_age = 30;
     char *month = "January";
     count(my_age, month);
-    return 0;
+    
     printf("Counting the countless parameter");
+	
+	return 0;
 }
 
 void count(int age, char *month)
