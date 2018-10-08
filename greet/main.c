@@ -8,5 +8,5 @@ int main()
 }
 
 void greet(char name){
-    printf("%s", name);
+    printf("%s AKA STADD\n", name);
 }
