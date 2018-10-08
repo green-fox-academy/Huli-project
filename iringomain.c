@@ -1,4 +1,8 @@
-void cheer {
-    printf("python\n");
-    printf("something else");
+int main{
+	char param[20] = hello;
+	cheer(param);
+}
+
+void cheer(char param) {
+    printf("Cheer for the %s", param);
 }
