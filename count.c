@@ -9,6 +9,7 @@ int main()
     char *month = "January";
     count(my_age, month);
     return 0;
+    printf("Counting the countless parameter");
 }
 
 void count(int age, char *month)
